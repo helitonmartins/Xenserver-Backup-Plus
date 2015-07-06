@@ -1,4 +1,4 @@
-# Xen-Server-Backup-Plus
+# Xenserver-Backup-Plus
 Set of scripts to make backups of Xenserver virtual machines
 
 
