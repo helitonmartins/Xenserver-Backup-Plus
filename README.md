@@ -30,7 +30,7 @@ Para execução do backup basta incluir a linha abaixo no crontab do servidor Xe
 
 Esta linha fará com que o script seja executado todos os sábados à zero hora. 
 
-Script realiza o backup em um diretório compartilhado em um servidor NFS.
+Script realiza o backup em um diretório compartilhado em um servidor NFS ou diretório local.
 
 
 Para o envio de emais é necessário editar o arquivo /etc/ssmtp/ssmtp.conf e alterar a linha mailhub para que aponte para o servidor de email correto.
