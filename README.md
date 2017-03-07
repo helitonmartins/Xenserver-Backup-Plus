@@ -59,7 +59,7 @@ backup_dir="/mnt/backup"
 
 ### Email para envio notificações
 email to send notification
-EMAIL=rogeriol@mpf.mp.br 
+EMAIL=fulano@blabla.com
 
 
 ### Número máximo de dias para guarda de arquivos de backup 
@@ -74,7 +74,7 @@ THRESHOLD=80
 ### Remetente de email
 email sender
 
-EMAIL_SERVER=prdf-$SERVER@mpf.mp.br 
+EMAIL_SERVER=$SERVER@dominio.com
 
 
 ### Tipo de backup
@@ -95,7 +95,7 @@ VOLUME_NFS="/bkp/bkpvm/lab"
 ### Servidor NFS
 NFS server name or IP
 
-NFS_SERVER="atlantico.prdf.mpf.gov.br"  
+NFS_SERVER="endereco_do_servidor_ou_ip"  
 
 
 ### arquivo de log
@@ -120,7 +120,7 @@ backup_ext=".xva"
 Which VMs to backup. Possible values are:
 "all" - Backup all VMs
 "running" - Backup all running VMs
-"running-so" - Backup only System Disco of running VMs
+"running-so" - Backup only system disc of running VMs
 "list" - Backup all VMs in the backup list (see below)
 "none" - Don't backup any VMs, this is the default
 
