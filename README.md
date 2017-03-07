@@ -118,11 +118,11 @@ backup_ext=".xva"
 
 ### Modalidade de backup
 Which VMs to backup. Possible values are:
-"all" - Backup all VMs
-"running" - Backup all running VMs
-"running-so" - Backup only system disc of running VMs
-"list" - Backup all VMs in the backup list (see below)
-"none" - Don't backup any VMs, this is the default
+* "all" - Backup all VMs
+* "running" - Backup all running VMs
+* "running-so" - Backup only system disc of running VMs
+* "list" - Backup all VMs in the backup list (see below)
+* "none" - Don't backup any VMs, this is the default
 
 backup_vms="running-so"
 
